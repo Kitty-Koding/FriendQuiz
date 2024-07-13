@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WIP</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <style>
+            body{
+                font-family: "Open Sans", sans-serif;
+                color:gray;
+                text-align:center;
+                margin:auto;
+                background:rgb(250, 250, 250);
+            }
+            a{
+                color:#e76f51;
+                font-style: bold;
+            }
+            button{
+                background:#f98f73;
+                border:none;
+                padding:5px;
+                color:white;
+                border-radius:5px;
+                position:relative;
+                top:-3px;
+                box-shadow:0px 3px 0px 0px #e76f51;
+                cursor:pointer;
+                animation:b2 0.4s;
+            }
+            button:hover{
+                background:#f98f73;
+                border:none;
+                padding:5px;
+                color:white;
+                border-radius:5px;
+                position:relative;
+                top:0px;
+                box-shadow:0px 0px 0px 0px #e76f51;
+                cursor:pointer;
+                animation:b1 0.4s;
+            }
+            @keyframes b1{
+                to{background:#f98f73;
+                border:none;
+                padding:5px;
+                color:white;
+                border-radius:5px;
+                position:relative;
+                top:0px;
+                box-shadow:0px 0px 0px 0px #e76f51;
+                cursor:pointer;}
+                from{background:#f98f73;
+                border:none;
+                padding:5px;
+                color:white;
+                border-radius:5px;
+                position:relative;
+                top:-3px;
+                box-shadow:0px 3px 0px 0px #e76f51;
+                cursor:pointer;}
+            }
+            @keyframes b2{
+                from{background:#f98f73;
+                border:none;
+                padding:5px;
+                color:white;
+                border-radius:5px;
+                position:relative;
+                top:0px;
+                box-shadow:0px 0px 0px 0px #e76f51;
+                cursor:pointer;}
+                to{background:#f98f73;
+                border:none;
+                padding:5px;
+                color:white;
+                border-radius:5px;
+                position:relative;
+                top:-3px;
+                box-shadow:0px 3px 0px 0px #e76f51;
+                cursor:pointer;}
+            }
+            input{
+                border:#e76f51 solid;
+                outline:#e76f51;
+                border-radius:1000000px;
+                padding-left:10px;
+                accent-color:#e76f51;
+                float:left;
+            }
+            label{
+                float:left;
+            }
+            fieldset{
+                border:#e76f51 solid;
+                padding:10px;
+                border-radius:1em;
+                margin:auto;
+                width:50%;
+                background:white;
+            }
+            hr{
+                margin:10%;
+                border:solid #f98f73 3px;
+            }
+            #inp{
+                margin-left:31%;
+            }
+            #bob{
+                width:70%;
+            }
+            footer{
+                background:rgb(235, 235, 235);
+                padding:10%;
+                position:relative;
+                margin-top:10%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="daCode">
+        
+            <h1>How Well Do You Know Me?</h1>
+            <h3>A Quiz Game You Can Play With Your Freinds</h3>
+            <hr>
+            <button id="ttq"> Take The Quiz </button>
+            <br><br>
+            <button id="skt"> See If You Know Them</button>
+            
+            <!--<h3>What Is Your Friends...</h3>
+            <fieldset><legend>Favorite Color?</legend><input name="col" type="radio" id="r"><label for="r">Red</label><br><input name="col" type="radio" id="o"><label for="o">Orange</label><br><input name="col" type="radio" id="y"><label for="y">Yellow</label><br><input name="col" type="radio" id="g"><label for="g">Green </label><br><input name="col" type="radio" id="b"><label for="b">Blue </label><br><input name="col" type="radio" id="v"><label for="v">Violet</label><br><input name="col" type="radio" id="p"><label for="p">Pink</label><br></fieldset><fieldset><legend>Favorite Food?</legend><input name="col1" type="radio" id="pi"><label for="pi">Pizza</label><br><input name="col1" type="radio" id="ra"><label for="ra">Ramen</label><br><input name="col1" type="radio" id="bu"><label for="bu">Burger</label><br><input name="col1" type="radio" id="mm"><label for="mm">Spaghetti</label><br><input name="col1" type="radio" id="sa"><label for="sa">Salad </label><br></fieldset><fieldset><legend>Dogs or Cats?</legend><input name="col2" type="radio" id="dgs"><label for="dgs">Dogs</label><br><input name="col2" type="radio" id="cts"><label for="cts">Cats</label><br></fieldset><fieldset><legend>Favorite Book Series?</legend><input name="col3" type="radio" id="hp"><label for="hp">Harry Potter</label><br><input name="col3" type="radio" id="hg"><label for="hg">Hunger Games</label><br><input name="col3" type="radio" id="tw"><label for="tw">Twilight</label><br><input name="col3" type="radio" id="ot"><label for="ot">Other</label><br></fieldset><fieldset><legend>What Instrument Do They Play?</legend><input name="col4" type="radio" id="nun"><label for="nun">None</label><br><input name="col4" type="radio" id="pia"><label for="pia">Piano</label><br><input name="col4" type="radio" id="vio"><label for="vio">Viola, Violin, Cello, Base, etc.</label><br><input name="col4" type="radio" id="uke"><label for="uke">Ukelele, Guitar, Banjo, etc.</label><br><input name="col4" type="radio" id="dum"><label for="dum">Drums</label><br></fieldset><fieldset><legend>Submit</legend><button id="gcod">Submit</button></fieldset><fieldset><legend>Results</legend><div><h4 id="resul">Not Submited</h4></div></fieldset>-->
+            
+        </div>
+        <footer>
+            <h3>Created By Wystan Way</h3>
+            <p><a>See The Code</a> - - - <a>My Github</a></p>
+        </footer>
+        <script>
+            var scene = 0;
+            var fi = function(Item){
+                if(document.getElementById(Item)===undefined){}else{
+                return document.getElementById(Item);}
+            };
+            if(innerWidth!==600||innerHeight!==400){
+                fi("daCode").innerHTML = "<h1>Sorry, But</h1><a href='https://www.khanacademy.org/computer-programming/wip/4806391336714240?width=600&&height=400'>Ya Gotta Go Here</a>";
+            }
+            var ncorrect = 0;
+            var qs = [["r","o","y","g","b","v","p"],["pi","ra","bu","mm","sa"],["dgs","cts"],["hp","hg","tw","ot"],["nun","pia","vio","uke","dum"],["mon","bea","cit"]];
+            var ans = [["red","orange","yellow","green","blue","violet","pink"],["pizza","ramen","burger","Spaghetti","Salad"],["dogs","cats"],["harry potter","hunger games","twilight","other"],["none","piano","base instrument (violin, cello etc.)","guitar, ukelele etc.","drums"],["mountains","beach","city"]];
+            var cones = [];
+            var qtest = 0;
+            var sele = [];
+            var tem = [];
+            var fcod = [];
+            var scramble = function(inp){
+                
+                var tst = "";
+                var tpv = [];
+                for(var k = 0;k!==inp.length;k++){
+                    if(inp[k]===0){
+                        tpv.push("h2S");
+                    }
+                    if(inp[k]===1){
+                        tpv.push("56K");
+                    }
+                    if(inp[k]===2){
+                        tpv.push("36J");
+                    }
+                    if(inp[k]===3){
+                        tpv.push("c58");
+                    }
+                    if(inp[k]===4){
+                        tpv.push("m1M");
+                    }
+                    if(inp[k]===5){
+                        tpv.push("H4b");
+                    }
+                    if(inp[k]===6){
+                        tpv.push("cD0");
+                    }
+                    if(inp[k]===7){
+                        tpv.push("W8w");
+                    }
+                    if(inp[k]===8){
+                        tpv.push("Lk3");
+                    }
+                    if(inp[k]===9){
+                        tpv.push("G6h");
+                    }
+                    
+                }
+                for(var l = 0;l!==tpv.length;l++){
+                    tst+=tpv[l];
+                }
+                return tst;
+            };
+            var descramble = function(wif){
+                var tst = [];
+                for(var n = 0;n!==wif.split("").length/3;n++){
+                    tst.push(wif.split("")[n*3]+wif.split("")[n*3+1]+wif.split("")[n*3+2])
+                }
+                var oui = [];
+                for(var k = 0;k!==tst.length;k++){
+                    if(tst[k]==="h2S"){
+                        oui.push(0);
+                    }
+                    if(tst[k]==="56K"){
+                        oui.push(1);
+                    }
+                    if(tst[k]==="36J"){
+                        oui.push(2);
+                    }
+                    if(tst[k]==="c58"){
+                        oui.push(3);
+                    }
+                    if(tst[k]==="m1M"){
+                        oui.push(4);
+                    }
+                    if(tst[k]==="H4b"){
+                        oui.push(5);
+                    }
+                    if(tst[k]==="cD0"){
+                        oui.push(6);
+                    }
+                    if(tst[k]==="W8w"){
+                        oui.push(7);
+                    }
+                    if(tst[k]==="Lk3"){
+                        oui.push(8);
+                    }
+                    if(tst[k]==="G6h"){
+                        oui.push(9);
+                    }
+                    
+                }
+                return oui;
+            };
+            
+            window.setInterval(function(){
+                if(scene===0){
+            fi("ttq").addEventListener("click",function(){
+                fi("daCode").innerHTML='<fieldset><legend>Favorite Color?</legend><input name="col" type="radio" id="r"><label for="r">Red</label><br><input name="col" type="radio" id="o"><label for="o">Orange</label><br><input name="col" type="radio" id="y"><label for="y">Yellow</label><br><input name="col" type="radio" id="g"><label for="g">Green </label><br><input name="col" type="radio" id="b"><label for="b">Blue </label><br><input name="col" type="radio" id="v"><label for="v">Violet</label><br><input name="col" type="radio" id="p"><label for="p">Pink</label><br></fieldset><fieldset><legend>Favorite Food?</legend><input name="col1" type="radio" id="pi"><label for="pi">Pizza</label><br><input name="col1" type="radio" id="ra"><label for="ra">Ramen</label><br><input name="col1" type="radio" id="bu"><label for="bu">Burger</label><br><input name="col1" type="radio" id="mm"><label for="mm">Spaghetti</label><br><input name="col1" type="radio" id="sa"><label for="sa">Salad </label><br></fieldset><fieldset><legend>Dogs or Cats?</legend><input name="col2" type="radio" id="dgs"><label for="dgs">Dogs</label><br><input name="col2" type="radio" id="cts"><label for="cts">Cats</label><br></fieldset><fieldset><legend>Favorite Book Series?</legend><input name="col3" type="radio" id="hp"><label for="hp">Harry Potter</label><br><input name="col3" type="radio" id="hg"><label for="hg">Hunger Games</label><br><input name="col3" type="radio" id="tw"><label for="tw">Twilight</label><br><input name="col3" type="radio" id="ot"><label for="ot">Other</label><br></fieldset><fieldset><legend>What Instrument Do You Play?</legend><input name="col4" type="radio" id="nun"><label for="nun">None</label><br><input name="col4" type="radio" id="pia"><label for="pia">Piano</label><br><input name="col4" type="radio" id="vio"><label for="vio">Viola, Violin, Cello, Base, etc.</label><br><input name="col4" type="radio" id="uke"><label for="uke">Ukelele, Guitar, Banjo, etc.</label><br><input name="col4" type="radio" id="dum"><label for="dum">Drums</label><br></fieldset><fieldset><legend>Favorite Vacation Spot?</legend><input name="col5" type="radio" id="mon"><label for="mon">Mountains</label><br><input name="col5" type="radio" id="bea"><label for="bea">Beach</label><br><input name="col5" type="radio" id="cit"><label for="cit">City</label><br></fieldset><fieldset><legend>Submit</legend><button id="gcod">Get Code</button></fieldset>';
+                scene=1;
+            });
+            fi("skt").addEventListener("click",function(){
+                fi("daCode").innerHTML = '<h2>Enter Friends Code Here:</h2><input id="inp"><br><br><button id="entr">Enter</button>';
+                scene=2;
+            });
+            }
+            if(scene===2){
+                fi("entr").addEventListener("click",function(){
+                    fcod = descramble(fi("inp").value);
+                    fi("daCode").innerHTML='<h3>What Is Your Friends...</h3><fieldset><legend>Favorite Color?</legend><input name="col" type="radio" id="r"><label for="r">Red</label><br><input name="col" type="radio" id="o"><label for="o">Orange</label><br><input name="col" type="radio" id="y"><label for="y">Yellow</label><br><input name="col" type="radio" id="g"><label for="g">Green </label><br><input name="col" type="radio" id="b"><label for="b">Blue </label><br><input name="col" type="radio" id="v"><label for="v">Violet</label><br><input name="col" type="radio" id="p"><label for="p">Pink</label><br></fieldset><fieldset><legend>Favorite Food?</legend><input name="col1" type="radio" id="pi"><label for="pi">Pizza</label><br><input name="col1" type="radio" id="ra"><label for="ra">Ramen</label><br><input name="col1" type="radio" id="bu"><label for="bu">Burger</label><br><input name="col1" type="radio" id="mm"><label for="mm">Spaghetti</label><br><input name="col1" type="radio" id="sa"><label for="sa">Salad </label><br></fieldset><fieldset><legend>Dogs or Cats?</legend><input name="col2" type="radio" id="dgs"><label for="dgs">Dogs</label><br><input name="col2" type="radio" id="cts"><label for="cts">Cats</label><br></fieldset><fieldset><legend>Favorite Book Series?</legend><input name="col3" type="radio" id="hp"><label for="hp">Harry Potter</label><br><input name="col3" type="radio" id="hg"><label for="hg">Hunger Games</label><br><input name="col3" type="radio" id="tw"><label for="tw">Twilight</label><br><input name="col3" type="radio" id="ot"><label for="ot">Other</label><br></fieldset><fieldset><legend>What Instrument Do They Play?</legend><input name="col4" type="radio" id="nun"><label for="nun">None</label><br><input name="col4" type="radio" id="pia"><label for="pia">Piano</label><br><input name="col4" type="radio" id="vio"><label for="vio">Viola, Violin, Cello, Base, etc.</label><br><input name="col4" type="radio" id="uke"><label for="uke">Ukelele, Guitar, Banjo, etc.</label><br><input name="col4" type="radio" id="dum"><label for="dum">Drums</label><br></fieldset><fieldset><legend>Favorite Vacation Spot?</legend><input name="col5" type="radio" id="mon"><label for="mon">Mountains</label><br><input name="col5" type="radio" id="bea"><label for="bea">Beach</label><br><input name="col5" type="radio" id="cit"><label for="cit">City</label><br></fieldset><fieldset><legend>Submit</legend><button id="gcod">Submit</button></fieldset>';
+                    scene=3;
+                });
+            }
+            if(scene===3){
+                fi("gcod").addEventListener("click",function(){
+                tem=[];
+                for(var i = 0;i!==qs.length;i++){
+                    for(var j =0;j!==qs[i].length;j++){
+                        if(fi(qs[i][j]).checked){
+                            tem.push(j);
+                        }
+                        
+                    }
+                }
+                sele=tem;
+                for(var b = 0;b!==sele.length;b++){
+                    if(sele[b]===fcod[b]){
+                        ncorrect++;
+                    }
+                }
+                fi("daCode").innerHTML="<h1>Done, You Got: "+Math.round(ncorrect/6*100)+"%</h1><h3>Restart To Take The Quiz/Get A Code</h3><div id='bob'>";
+                for(var x = 0;x!==sele.length;x++){
+                    fi("daCode").innerHTML += "<br><br><h3>Q#"+(x+1)+" </h3>";
+                    if(x===0){
+                        fi("daCode").innerHTML += "What Is Your Fav Color? ";
+                    }
+                    if(x===1){
+                        fi("daCode").innerHTML += "What Is Your Fav Food? ";
+                    }
+                    if(x===2){
+                        fi("daCode").innerHTML += "Dogs or Cats? ";
+                    }
+                    if(x===3){
+                        fi("daCode").innerHTML += "What Is Your Fav Book Series? ";
+                    }
+                    if(x===4){
+                        fi("daCode").innerHTML += "What Instrument Do You Mainly Play? ";
+                    }
+                    if(x===5){
+                        fi("daCode").innerHTML += "What Is Your Fav Vacation Spot? ";
+                    }
+                    fi("daCode").innerHTML += "<br>The Answer Was "+ans[x][fcod[x]]+".<br>You Guessed "+ans[x][sele[x]]+".";
+                    if(sele[x]===fcod[x]){
+                        fi("daCode").innerHTML += " You Were Correct. ";
+                    }
+                    
+                }
+                fi("daCode").innerHTML+="</div>";
+                scene=4;
+            });
+            }
+            if(scene===1){
+            fi("gcod").addEventListener("click",function(){
+                tem=[];
+                for(var i = 0;i!==qs.length;i++){
+                    for(var j =0;j!==qs[i].length;j++){
+                        if(fi(qs[i][j]).checked){
+                            tem.push(j);
+                        }
+                        
+                    }
+                }
+                sele=tem;
+                fi("daCode").innerHTML="<h1>Code Generated</h1> <h4>Give This Code To Your Friend: "+scramble(sele)+"</h4><p>To Take The Quiz Again/Play Your Friend's Reload The Program</p>";
+                scene=4;
+            });
+            
+            
+            }
+            },100);
+            
+        </script>
+    </body>
+</html>
